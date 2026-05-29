@@ -154,6 +154,7 @@ which is the most critical metric in real-world surveillance.
 
 ## Workflow of Model
 <img src="https://github.com/Karthikkosuri/Temporal_Attention-_Gate_Network_For_Violence_Detection/blob/main/Architectures%20Diagram/TAG%20ARCH.png?raw=true" alt="Project Diagram" width = "800"/>
+<img src="https://github.com/Karthikkosuri/Temporal_Attention-_Gate_Network_For_Violence_Detection/blob/main/Architectures%20Diagram/TAG%20ARCH.drawio.png?raw=true" alt="Project Diagram" width = "800"/>
 
 ## 🚀 How to Use This Repository
 
