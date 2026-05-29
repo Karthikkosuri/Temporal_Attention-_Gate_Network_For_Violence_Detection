@@ -208,9 +208,6 @@ which is the most critical metric in real-world surveillance.
 
 ---
 
-
----
-
 ## 👨‍💻 Author
 
 **Karthik Kosuri**  
