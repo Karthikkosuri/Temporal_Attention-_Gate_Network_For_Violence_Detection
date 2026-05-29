@@ -152,6 +152,9 @@ which is the most critical metric in real-world surveillance.
 - Dataset split: 80% training / 20% testing with class-balanced shuffling
 ---
 
+## Workflow of Model
+<img src="https://github.com/Karthikkosuri/Temporal_Attention-_Gate_Network_For_Violence_Detection/blob/main/Architectures%20Diagram/TAG%20ARCH.png?raw=true" alt="Project Diagram" width = "800"/>
+
 ## 🚀 How to Use This Repository
 
 ### 1. Clone the Repository
