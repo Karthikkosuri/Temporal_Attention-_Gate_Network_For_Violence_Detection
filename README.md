@@ -153,6 +153,71 @@ which is the most critical metric in real-world surveillance.
 - [Download the dataset used in this experiment from here !](https://www.kaggle.com/datasets/intissarziani/ubi-fightsall)
 ---
 
+## 🚀 How to Use This Repository
+
+### 1. Clone the Repository
+To get a local copy of this project on your machine, open Git Bash or 
+your terminal and run:
+
+```bash
+git clone https://github.com/Karthikkosuri/Temporal_Attention-_Gate_Network_For_Violence_Detection.git
+cd Temporal_Attention-_Gate_Network_For_Violence_Detection
+```
+
+### 2. Install Dependencies
+Install all required Python libraries:
+
+```bash
+pip install torch torchvision numpy opencv-python scikit-learn matplotlib jupyter
+```
+
+### 3. Download the Dataset
+Download the **UBI-Fights Dataset** from Kaggle and organize it as follows:
+- 🔗 [Download UBI-Fights Dataset](https://www.kaggle.com/datasets/intissarziani/ubi-fightsall)
+
+### 4. Run the Notebook
+Open and run the main Jupyter notebook to preprocess data, train models, 
+and evaluate results:
+
+```bash
+jupyter notebook latest-tag.ipynb
+```
+
+### 5. Load a Pretrained Model
+To directly use one of the saved pretrained models for inference 
+without retraining:
+
+```python
+import torch
+
+# Load the best proposed model
+model = torch.load('3dcnn_tag_bilstm.pt')
+model.eval()
+```
+
+---
+
+### 📁 Project Structure
+
+```
+Temporal_Attention-_Gate_Network_For_Violence_Detection/
+│
+├── Architectures Diagram/               # Visual architecture diagrams of all models
+│   ├── 3dcnn_architecture.png           # Architecture flow of baseline 3D CNN model
+│   ├── 3dcnn_lstm_architecture.png      # Architecture flow of 3D CNN + LSTM model
+│   ├── 3dcnn_bilstm_architecture.png    # Architecture flow of 3D CNN + Bi-LSTM model
+│   └── tag_net_architecture.png         # Architecture flow of proposed TAG-Net model
+│
+├── 3dcnn.pt                             # Trained weights — Baseline 3D CNN model
+├── 3dcnn_lstm.pt                        # Trained weights — 3D CNN + LSTM model
+├── 3dcnn_bilstm.pt                      # Trained weights — 3D CNN + Bi-LSTM model
+├── 3dcnn_tag_bilstm.pt                  # Trained weights — Proposed TAG-Net (best model)
+│
+├── latest-tag.ipynb                     # Main Jupyter notebook for training, evaluation,
+│                                        # and inference of all four model architectures
+│
+└── README.md                            # Project documentation
+```
 ## ⚙️ Tech Stack
 
 | Component | Details |
