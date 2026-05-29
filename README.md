@@ -150,7 +150,6 @@ which is the most critical metric in real-world surveillance.
 - 32 consecutive frames extracted per clip (uniform temporal sampling)
 - Pixel values normalized to [0, 1]
 - Dataset split: 80% training / 20% testing with class-balanced shuffling
-- [Download the dataset used in this experiment from here !](https://www.kaggle.com/datasets/intissarziani/ubi-fightsall)
 ---
 
 ## 🚀 How to Use This Repository
