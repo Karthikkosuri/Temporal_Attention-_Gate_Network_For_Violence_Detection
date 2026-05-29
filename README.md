@@ -208,12 +208,6 @@ which is the most critical metric in real-world surveillance.
 
 ---
 
-## 📄 Research Paper
-
-This project is based on the research paper:
-
-> **"TAG-Net: A Temporal Attention Gate Network for Efficient Violence Detection 
-> Using 3D CNN and Bidirectional LSTM"**
 
 ---
 
